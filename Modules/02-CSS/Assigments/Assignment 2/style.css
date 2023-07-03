@@ -1,0 +1,21 @@
+.breadcrumb{
+    padding: 10px;
+    background-color: #e0dddd;
+    list-style: none; 
+}
+
+.breadcrumb li{
+    display: inline-block;
+    margin-right: 1rem;
+    font-weight: bold;
+}
+
+.breadcrumb li a{
+    color: rgb(41, 164, 212) ;
+}
+
+.asas::before {
+    content: "/";
+    margin-right: 1rem;
+    color: black;
+}
