@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Assignment 3</title>
+    <style>
+        .menu{
+        text-align: center;
+        position: absolute;
+        }
+
+        .drop{
+            padding: 10px 20px;
+            position: relative;
+            display: inline-block;
+        }
+
+        .submenu{
+            display: none;  
+        }
+    
+        .submenu-item{
+            background-color: rgb(199, 208, 216);
+            border: 1px solid black;
+            padding: 10px 20px;
+            border-radius: 5px;
+            display: block;
+        }
+
+        .menu:hover .submenu{
+            display: block;
+        }
+
+        .submenu-item:hover{
+            background-color: rgb(158, 157, 156);
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="menu">
+        <span class="drop">Settings</span>
+        <div class="submenu">
+            <span class="submenu-item">Account</span>
+            <span class="submenu-item">Log out</span>
+        </div>
+    </div>
+</body>
+</html>
