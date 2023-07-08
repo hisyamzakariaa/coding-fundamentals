@@ -1,0 +1,60 @@
+footer{
+    background-color: aliceblue;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+footer li{
+    list-style: none;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+}
+
+.text{
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+.text li{
+    margin-right: 10px;
+    padding: 10px;
+    
+}
+
+.text li a{
+    color: black;
+    text-decoration: none;
+}
+
+.icon i{
+    margin-right: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 20px
+}
+
+.icon .twitter i:hover{
+    color: rgb(63, 161, 252);
+}
+
+.icon .instagram i:hover{
+    color: rgb(243, 51, 179);
+}
+
+.icon .linkedin i:hover{
+    color: rgb(0, 4, 255);
+}
+
+.text li a:hover{
+    color: rgb(31, 161, 155);
+}
