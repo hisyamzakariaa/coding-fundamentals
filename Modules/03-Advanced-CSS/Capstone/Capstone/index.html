@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/44fe821bd4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6" style="height: 60px; padding-left: 15px">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M21 7.5l-2.25-1.313M21 7.5v2.25m0-2.25l-2.25 1.313M3 7.5l2.25-1.313M3 7.5l2.25 1.313M3 7.5v2.25m9 3l2.25-1.313M12 12.75l-2.25-1.313M12 12.75V15m0 6.75l2.25-1.313M12 21.75V19.5m0 2.25l-2.25-1.313m0-16.875L12 2.25l2.25 1.313M21 14.25v2.25l-2.25 1.313m-13.5 0L3 16.5v-2.25" />
+              </svg>
+            <ul>
+                <li><a href="#">Changelog</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Partners</a></li>
+                <li><a href="#">News</a></li>
+            </ul>
+            <div class="button-container">
+                <button class="button" type="submit" name="login"> Log In</button>
+            </div>
+            
+        </div>
+        
+    </header>
+
+    <section class="sec1">
+        <h1 style="margin: 0;">Get in touch</h1>
+        <p style="margin: 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, doloribus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, totam!</p>
+    </section>
+
+    <section class="sec2">
+        <div class="my-contact">
+            <h2>Contact information</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dolorum consequuntur veritatis sed, qui ea, odit iusto officiis id modi non placeat. Aliquid debitis repudiandae tempore quod facilis! Molestias, ad!</p>
+            <div class="my-phone">
+                <!-- phone -->
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6" style="height: 20px;">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                  </svg>
+                  <p style="margin-left: 10px;">+60123456789</p>
+            </div>
+            <div class="email">
+                <!-- email -->
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6" style="height: 20px;">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                  </svg>
+                <p style="margin-left: 10px;">hisyamzakariaa@gmail.com</p>
+            </div>
+            <div class="icon">
+                <!-- icon -->
+                <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+              
+        </div>
+        <div class="customer-fillin">
+            <h2>Send us a message</h2>
+            <form action="">
+                <div class="name">
+                    <!-- name -->
+                    <div>
+                        <label for="first-name" style="margin-right: 10px;">First Name</label>
+                        <input class="empty" type="text" name="first-name" id="first-name" placeholder="enter your first name" style="margin-right: 30px;" required>
+                    </div>
+                    
+                    <div>
+                        <label for="last-name" style="margin-right: 37px;">Last Name</label>
+                        <input class="empty" type="text" name="last-name" id="last-name" placeholder="enter your last name" required>
+                    </div> 
+                </div>
+                <div class="ep">
+                    <!-- email/phone -->
+                    <div>
+                        <label for="email" style="margin-right: 43px;">Email</label>
+                        <input class="empty" type="email" name="email" id="email" placeholder="enter your email" style="margin-right: 30px;" required>
+                    </div>
+                    
+                    <div>
+                        <label for="phone" style="margin-right: 10px;">Phone Number</label>
+                        <input class="empty cust-phone" type="number" name="phone" id="phone" placeholder="enter your phone number">
+                    </div>               
+                </div>
+                <div class="subject">
+                    <!-- subject -->
+                    <label for="subject" style="margin-right: 33px;">Subject</label>
+                    <input class="empty" type="text" name="subject" id="subject">
+                </div>
+                <div class="message">
+                    <!-- message -->
+                    <div style="display: flex; align-items: end; justify-content: space-between;">
+                        <p style="margin-bottom: 0; padding: 0 0 5px 0;">Message</p>
+                        <p style="color: rgb(175, 172, 172); margin: 0; padding: 0 0 5px 0;">(max 500 characters)</p>
+                    </div>
+                    <textarea style="border-radius: 5px;" name="message" id="message" cols="76" rows="10" placeholder="leave your message here" maxlength="500"></textarea>
+                </div>
+                <button class="button" name="submit" type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
+
+  

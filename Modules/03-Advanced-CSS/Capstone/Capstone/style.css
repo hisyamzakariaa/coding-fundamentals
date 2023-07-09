@@ -1,0 +1,138 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: aliceblue;
+    height: 70px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+.nav svg{
+    padding: 8px;
+    /* border: 1px solid black; */
+}
+
+.nav ul{
+    display: flex;
+    padding-left: 5px;
+    /* border: 1px solid black; */
+}
+
+.nav li{
+    list-style: none;
+    margin-right: 20px;
+    /* border: 1px solid black; */
+}
+
+.nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.button-container{
+    /* border: 1px solid black; */
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button{
+    height: 35px;
+    width: 70px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(182, 241, 241);
+    color: rgb(54, 54, 54);
+}
+
+.sec1{
+    background-color: rgb(233, 245, 242);
+    padding: 20px;
+}
+
+.sec2{
+    display: flex;
+}
+
+.empty{
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.my-contact{
+    background-color: rgb(182, 241, 241);
+    border-radius: 5px;
+    flex: 1 1 10%;
+    padding: 20px;
+}
+
+.customer-fillin{
+    background-color: aliceblue;
+    border-radius: 5px;
+    flex: 2 2 20%;
+    padding: 20px;
+}
+
+.my-phone{
+    display: flex;
+    align-items: center;
+}
+
+.cust-phone::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+.email{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.name{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.ep{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.icon i{
+    color: black;
+    font-size: 20px;
+}
+
+.icon a{
+    margin-right: 10px;
+}
+
+.icon .twitter i:hover{
+    color: rgb(63, 161, 252);
+}
+
+.icon .instagram i:hover{
+    color: rgb(243, 51, 179);
+}
+
+.icon .linkedin i:hover{
+    color: rgb(0, 4, 255);
+}
+
+.button:hover{
+    background-color: rgb(59, 59, 241);
+    color: white;
+}
+
+.nav a:hover{
+    color: blue;
+}
