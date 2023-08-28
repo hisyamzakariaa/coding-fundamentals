@@ -1,0 +1,42 @@
+.container{
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 50rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#quote{
+    font-weight: bold;
+    flex: 1;
+}
+
+#author{
+    color: gray;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+
+.bottom{
+    background-color: rgb(224, 220, 220);
+}
+
+.button{
+    color: white;
+    background-color: rgb(45, 123, 241);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    border: none;
+}
+
+.button:hover{
+    color: rgb(45, 123, 241);
+    background-color: white;
+}
