@@ -1,0 +1,9 @@
+1) Loop is needed to access elements in a data set such as elements in an array or characters in a string. It is also used to execute a function under different circumstances. A basic loop consists of an argument which is set to
+
+2) console.log() displays the selected variable which is in the () while return stops the execution of a function and the result of the function is returned for other use. Picture a function which contains a variable named "total" that has a value of an integer 5. In the function, the function is forced to stop and the variable "outcome" is returned using the "return". To display the value of the returned variable, console.log(outcome) is used
+
+3) Truthy and falsy values are the boolean values. When using boolean, the value that is returned as true is considered as thruty value while the one that is returned as false is the falsy value.
+
+4) Internet connects all the computers together. For example, my browser (client) makes a request from a certain data from a certain web and server. Internet will take this request and bring back the requested data from the server to the client.
+
+5) There are 3 files involved behind a working website. These 3 files are html, css, and js files. To get things easier to understand, imagine html as the skeleton of a human, css is the features such as the skin tone, the shape of face and the type of hair. Js is the mind which operates the body.
